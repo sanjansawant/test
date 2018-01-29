@@ -56,6 +56,8 @@
 	padding-bottom: 5px; 
 	width: 120px;
 	margin-top:10px;
+	opacity:0.5;
+
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus{
@@ -73,6 +75,11 @@
     border:0;
     text-shadow: 1px 1px 1px #222;
     
+}
+.white{
+
+
+	color: #F5FFFA;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
@@ -382,10 +389,22 @@
 .size{
 
 
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 
-	
+	.buttonstyle{
+
+	border-radius:0; 
+	background-color: #000066; 
+	border: 0; 
+	padding-top:5px; 
+	padding-bottom: 5px; 
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 120px;
+	margin-top:10px;
+	opacity:0.5;
+}
 
 
 }
@@ -453,6 +472,9 @@
 	padding-bottom: 5px; 
 	width: 120px;
 	margin-top:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	opacity:0.5;
 }
 .content{
 
@@ -474,7 +496,7 @@
 .size{
 
 
-	font-size: 0.7em;
+	font-size: 0.8em;
 }
 
 
@@ -509,6 +531,7 @@
 	padding-bottom: 5px; 
 	width: 80px;
 	margin-top:10px;
+	opacity:0.5;
 }
 
 .content{
@@ -532,7 +555,7 @@
 .size{
 
 
-	font-size: 0.6em;
+	font-size: 0.7em;
 }
 
 }
