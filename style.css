@@ -10,13 +10,18 @@
 	background-size: cover;
 	font-size: 16px;
 	color: #fff;
-	font-family: 'Oxygen', sans-serif; 
+	font-family: 'Work Sans', sans-serif;
 }
 
 header{
 
 
 	background-image: url("./images/aas.png");
+	background-size: contain;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+    height: auto;
 }
 
 .jumbotron{
@@ -114,6 +119,7 @@
 /*border: 2px solid #3F0C1F;*/
 overflow:hidden;
 background-image: url("./images/pic1.png");
+background-size: contain;
 background-position: right;
 background-repeat: no-repeat;
 
@@ -131,6 +137,7 @@
 /*border: 2px solid #3F0C1F;*/
 overflow:hidden;
 background-image: url("./images/1.png");
+
 background-position: center;
 background-repeat: no-repeat;
 
@@ -295,6 +302,10 @@
 		
 
 	}
+	.space{
+
+		width: 150px;
+	}
 	
 
 
@@ -319,13 +330,7 @@
 		height: 432px;
 		
 	}
-	.space{
-
-
-margin-top: 3px;
-
-}
-
+	
 
 
 }
@@ -390,12 +395,7 @@
 	margin: 2.5em auto;
 
 }
-.space{
 
-
-margin-top: 3px;
-
-}
 
 
 
@@ -437,12 +437,6 @@
 
 }
 
-.space{
-
-
-margin-top: 3px;
-
-}
 
 
 
