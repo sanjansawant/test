@@ -113,8 +113,6 @@
 
 .trans{
 height: 350px;
-
-margin-bottom:15px;
 position:relative;
 /*border: 2px solid #3F0C1F;*/
 overflow:hidden;
@@ -171,6 +169,7 @@
 #ctr{
 	padding-top:0;
 	margin-top: 0;
+	text-align: center;
 }
 
 
@@ -183,7 +182,8 @@
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-
+margin-right: auto;
+padding:;
 }
 .trans32{
 position:relative;
@@ -248,17 +248,16 @@
 	width:100%;
 	min-height:300px;
 	position: relative;
+	margin-bottom: 60px;
 }
 .column_center {
 
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   width: auto;
   height: auto;
   padding: 20px;  
   color: white;
+  margin: 0 auto;
+  text-align: center;
   
 }
 
@@ -266,27 +265,28 @@
 input.left {
   width: 320px;
   height: 50px;
-  margin: 0 50px 0 0;
+  margin: 0 auto;
   padding: 0px;
   background-color: transparent;
   border:0;
-  margin-top: 75px;
+ 
+  border-bottom: 1px solid grey;
+  text-align: center;
 }
 
 input.right {
   width: 320px;
   height: 50px;
   padding: 0px;
+  margin: 0 auto;
   background-color: transparent;
   border:0;
+  border-bottom: 1px solid grey;
+	text-align: center;
 }
 
 
-#margin1, #margin2{
 
-border-bottom: 1px solid grey;
-text-align: center;
-}
 
 
 
@@ -330,6 +330,11 @@
 		height: 432px;
 		
 	}
+
+
+
+
+
 	
 
 
@@ -397,7 +402,11 @@
 }
 
 
+	.space{
 
+
+
+	}
 
 
 }
