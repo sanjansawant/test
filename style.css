@@ -175,8 +175,8 @@
 .trans3{
 
 
-height:175px;
-width:50%;
+height:170px;
+
 
 
 }
@@ -197,7 +197,7 @@
 background-position: center;
 background-repeat: no-repeat;
 margin-right: auto;
-padding:;
+width:48%;
 }
 .trans32{
 position:relative;
@@ -207,6 +207,8 @@
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+margin-left: 4%;
+width:48%;
 
 }
 
@@ -218,6 +220,8 @@
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+margin-top:10px;
+width:48%;
 
 }
 .trans34{
@@ -228,6 +232,9 @@
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+margin-top:10px;
+margin-left: 4%;
+width:48%;
 
 }
 
