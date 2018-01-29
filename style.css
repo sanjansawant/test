@@ -113,8 +113,6 @@
 
 .trans{
 height: 350px;
-position:relative;
-/*border: 2px solid #3F0C1F;*/
 overflow:hidden;
 background-image: url("./images/pic1.png");
 background-size: contain;
@@ -123,10 +121,17 @@
 
 }
 
+
+
+
 .content{
 height: 350px;
+overflow: hidden;
+
 
 }
+
+
 .trans2{
 height: 350px;
 
@@ -342,26 +347,7 @@
 /*Small Device */
 @media (min-width: 768px) and (max-width: 991px){
 
-	.trans{
-height: 500px;
-
-margin-bottom:15px;
-position:relative;
-/*border: 2px solid #3F0C1F;*/
-overflow:hidden;
-background-image: url("./images/pic1.png");
-background-position: right;
-background-repeat: no-repeat;
-
-}
-
-.content{
-height: 150px;
-
-overflow:hidden;
-
-
-}
+	
 
 
 	.jumbo{
@@ -419,27 +405,6 @@
 /*Extra small Device */
 @media(max-width: 767px){
 
-
-	.trans{
-height: 500px;
-
-margin-bottom:15px;
-position:relative;
-/*border: 2px solid #3F0C1F;*/
-overflow:hidden;
-background-image: url("./images/pic1.png");
-background-position: right;
-background-repeat: no-repeat;
-
-}
-
-.content{
-height: 100px;
-
-
-overflow:hidden;
-
-}
 
 
 .midd{
