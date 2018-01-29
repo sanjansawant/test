@@ -379,6 +379,11 @@
 
 }
 
+.size{
+
+
+	font-size: 0.8em;
+}
 
 	
 
@@ -466,6 +471,12 @@
 opacity:0.4;
 
 }
+.size{
+
+
+	font-size: 0.7em;
+}
+
 
 
 }
@@ -517,6 +528,11 @@
 color:#fff;
 opacity:0.4;
 
+}
+.size{
+
+
+	font-size: 0.6em;
 }
 
 }
