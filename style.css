@@ -405,11 +405,21 @@
 }
 
 
-	.space{
-
-
+	.chgfont{
+		font-size: 0.6em;
 
 	}
+
+	.buttonstyle{
+
+	border-radius:0; 
+	background-color: #000066; 
+	border: 0; 
+	padding-top:5px; 
+	padding-bottom: 5px; 
+	width: 120px;
+	margin-top:10px;
+}
 
 
 }
@@ -427,9 +437,22 @@
 	margin: 2.5em auto;
 
 }
+.chgfont{
+		font-size: 0.6em;
+		
+	}
 
 
+.buttonstyle{
 
+	border-radius:0; 
+	background-color: #000066; 
+	border: 0; 
+	padding-top:5px; 
+	padding-bottom: 5px; 
+	width: 90px;
+	margin-top:10px;
+}
 
 }
 
